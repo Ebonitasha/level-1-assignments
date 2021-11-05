@@ -1,0 +1,189 @@
+
+ 
+.fblue {
+    background-color: blue;
+    height: 200px;
+    aspect-ratio: 2/3;
+    width: 300px;
+   
+}
+.fwhite {
+    background-color: cornsilk;
+    height: 200px;
+    aspect-ratio: 2/3;
+    width: 300px;
+   
+}
+.fred {
+    background-color: crimson;
+    height: 200px;
+    width: 300px;
+    aspect-ratio: 2/3;     
+}
+.france 
+{
+    display: flex;
+    height: 200px;
+    width: 300px;
+}
+.gblack {
+    background-color: black;
+    height: 200px;
+    aspect-ratio: 3/5;
+}
+.gred {
+    background-color:red;
+    height: 200px;
+    aspect-ratio: 3/5
+}
+.gyellow {
+    background-color: yellow;
+    height: 200px;
+    aspect-ratio: 3/5
+}
+.germany
+{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 333px;
+    height: 200px;
+}
+.mwhite {
+    background-color: cornsilk;
+    height: 200px;
+    aspect-ratio: 2/3;
+}
+.mred {
+    background-color: red;
+    height: 200px;
+    aspect-ratio: 2/3;
+    position: relative;
+}
+.mgreen {
+    background-color: green;
+    height: 200px;
+    aspect-ratio: 2/3;
+    position: relative;
+}
+.madagascar {
+    display: flex;
+    flex-direction: column-reverse;  
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+.mwhite {
+    position: absolute;
+}
+.switzerland {
+    background-color: red;
+    height: 200px;
+    width: 333px;
+}
+.cross {
+    background-color: white;
+    height: 55px;
+    width: 170px;
+    position: absolute;
+    left: 90px;
+    bottom: 160px; 
+}
+.cross-1 {
+    background-color: white;
+    height: 170px;
+    width: 50px;
+    position: absolute;
+    left: 150px;
+    bottom: 100px;
+}
+.sweden {
+    background-color: blue;
+    height: 200px;
+    width: 333px;
+    padding: 10px;
+}
+.line-1 {
+    background-color: yellow;
+    height: 220px;
+    width: 50px;
+    position: relative;
+    bottom: 10px;
+    left: 90px;
+}
+.line-2 {
+    background-color: yellow;
+    height: 50px;
+    width: 353px;
+    position: absolute;
+    bottom: -50px;
+    left: 9px;
+}
+.gambia {
+    background-color: w;
+    height: 200px;
+    width: 300px;
+}
+.gambia-red {
+    background-color: red;
+    height: 65px;
+    width: 300px;
+    position: absolute;
+}
+.gambia-blue {
+    background-color: darkblue;
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    bottom: -260px;
+}
+.gam-green {
+    background-color: green;
+    height: 65px;
+    width: 300pz;
+    position: relative;
+    bottom: -140px;
+}
+.japan {
+    background-color: wheat;
+    aspect-ratio: 2/3;
+    height: 200px;
+    width: 300px;
+}
+.jred {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 75px;
+    bottom: -510px;
+}    
+.niger {
+    background-color: cornsilk;
+    height: 200px;
+    width: 333px;
+}
+.norange {
+    background-color: darkorange;
+    height: 70px;
+    width: 333px;
+    position: relative;
+    bottom: -3px;
+}
+.ngreen {
+    background-color: green;
+    height: 70px;
+    width: 333px;
+    position: relative;
+    bottom: -90px;
+}
+.circle {
+    background-color: darkorange;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 130px;
+    bottom: -687px;
+}
