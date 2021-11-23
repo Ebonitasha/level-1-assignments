@@ -15,7 +15,7 @@ if (readlineSync.keyInYN("Would you like to enter the Escape room?")) {
 var choice = readlineSync.question("what do you want to do : Put hand in hole, : Find Key, : Try Door  PRESS ENTER");
 
 var isAlive = true;
-var findKey = false;
+var hasKey = false;
 var escaped = false;
 
 while (isAlive) {
@@ -26,14 +26,18 @@ let yourChoice = readlineSync.keyInSelect(options, "make your choice!");
         isAlive = false
         console.log('You was bit by deadly snake, Game Over');
     } else if (yourChoice === 1) {
+        hasKey = true
         console.log(' you found the key you can exit the door');
-        process.exit()
-    } else if (yourChoice === 2) {
-        console.log('You cant open the door without the key, make another choice');  
-    } else {
-        process.exit()
-        console.log("player gave up");
+    } else if (yourChoice === 2 && hasKey === false) {
+        console.log('You cant open the door without the key, make another choice');
+    } else if (yourChoice === 2 && hasKey === true ) {
+        console.log('You have exit the room');
+        break;
     }
+    // } else {
+    //     process.exit()
+    //     console.log("player gave up");
+    // }
 }
 
  
