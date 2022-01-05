@@ -1,5 +1,3 @@
-
-
 var readlineSync = require('readline-sync');
 
 var name = readlineSync.question('May I have your Name:');
@@ -34,10 +32,6 @@ let yourChoice = readlineSync.keyInSelect(options, "make your choice!");
         console.log('You have exit the room');
         break;
     }
-    // } else {
-    //     process.exit()
-    //     console.log("player gave up");
-    // }
 }
 
  
